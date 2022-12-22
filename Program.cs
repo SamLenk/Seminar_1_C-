@@ -1,4 +1,5 @@
-﻿﻿Console.WriteLine("Введите два числа");
+﻿﻿// 1 задача
+Console.WriteLine("Введите два числа");
 int num1 = int.Parse(Console.ReadLine()!);
 int num2 = int.Parse(Console.ReadLine()!);
 
@@ -6,3 +7,5 @@ if (num1 > num2)
                 Console.WriteLine($"Максимальное {num1}");
             else 
                 Console.WriteLine($"Максимальное {num2}");
+
+// 2 задача
