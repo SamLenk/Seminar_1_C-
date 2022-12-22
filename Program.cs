@@ -6,5 +6,3 @@ if (num1 > num2)
                 Console.WriteLine($"Максимальное {num1}");
             else 
                 Console.WriteLine($"Максимальное {num2}");
-
-
