@@ -1,10 +1,9 @@
-﻿Console.WriteLine("Введите два числа");
-int num1 = int.Parse(Console.ReadLine()!);
-int num2 = int.Parse(Console.ReadLine()!);
+﻿Console.WriteLine("Введите число");
+double num1 = double.Parse(Console.ReadLine()!);
 
-if (num1 > num2)
-                Console.WriteLine($"Максимальное {num1}");
-            else 
-                Console.WriteLine($"Максимальное {num2}");
-
-
+if (num1 % 2 == 0)
+Console.WriteLine ($"Четное");
+else
+{
+    Console.WriteLine ($"Нечетное");
+}
